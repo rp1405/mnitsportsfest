@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/* zoom effect */
+.zoom {
+    transition: transform .3s; /* Animation */
+}
+  
+.zoom:hover {
+    transform: scale(1.1); /* (110% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+/* About MST part */
+.aboutMst{
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+}
+.youtubeVideo{
+    padding-right: 5vw;
+    padding-top: 5vw;
+}
+/* About MNIT part */
+.aboutMnit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins";
+}
+.aboutMnitHeading{
+    color: goldenrod;
+}
+.vltcImg{
+    object-fit: contain;
+    width: 100vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-top: 4vw;
+}
+.formPart{
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width: 1200px){
+    .formPart{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .googleForm{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+
+
+
+/* image slider */
+.carousel {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-container {
+    /* margin-top: 50px; */
+    /* width: 20vw; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carousel-button {
+    font-size: 16px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 0%;
+    border: none;
+    opacity: 50%;
+    background-color: #1e2122;
+    border: 4px solid goldenrod;
+    border-radius: 10px;
+    color: goldenrod;
+}
+
+.carousel-button:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.wrapper-1 {
+    transition: margin 1s;
+}
+
+.carousel-image {
+    padding: 10px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.button-container-small {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.carousel-button-small {
+    display: none;
+}
+
+.carousel-button-small:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+
+@media (max-width: 1000px) {
+    .image-container {
+        width: 100%;
+    }
+
+    .button-container {
+        margin-bottom: 0px;
+    }
+
+    .carousel-button {
+        display: none;
+    }
+
+    .carousel-button-small {
+        display: flex;
+        flex-direction: row;
+        font-size: 16px;
+        padding: 10px 10% 10px 10%;
+        border-radius: 0%;
+        border: none;
+        opacity: 50%;
+        background-color: #1e2122;
+        border: 4px solid goldenrod;
+        border-radius: 10px;
+        color: goldenrod;
+    }
+}
+
+@media (max-width: 700px) {
+    .carousel-container {
+        width: 100%;
+    }
+}
