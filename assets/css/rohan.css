@@ -34,6 +34,18 @@
     padding-right: 10vw;
     margin-top: 4vw;
 }
+.aboutMnitText{
+    width: 100vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-top: 2vw;
+    text-align: center;
+    font-size: large;
+}
+
+
+
+
 .formPart{
     display: flex;
     flex-direction: row;
