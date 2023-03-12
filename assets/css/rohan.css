@@ -1,40 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 /* zoom effect */
 .zoom {
-    transition: transform .3s; /* Animation */
+    transition: transform .3s;
+    /* Animation */
 }
-  
+
 .zoom:hover {
-    transform: scale(1.1); /* (110% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.1);
+    /* (110% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+
 /* About MST part */
-.aboutMst{
+.aboutMst {
     width: 80vw;
     display: flex;
     flex-direction: row;
 }
-.youtubeVideo{
+
+/* .youtubeVideo {
     padding-right: 5vw;
     padding-top: 5vw;
-}
+} */
+
 /* About MNIT part */
-.aboutMnit{
+.aboutMnit {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: "Poppins";
 }
-.aboutMnitHeading{
+
+.aboutMnitHeading {
     color: goldenrod;
 }
-.vltcImg{
+
+.vltcImg {
     object-fit: contain;
     width: 100vw;
     padding-left: 10vw;
     padding-right: 10vw;
     margin-top: 4vw;
 }
-.aboutMnitText{
+
+.aboutMnitText {
     width: 100vw;
     padding-left: 10vw;
     padding-right: 10vw;
@@ -46,17 +55,19 @@
 
 
 
-.formPart{
+.formPart {
     display: flex;
     flex-direction: row;
 }
-@media screen and (max-width: 1200px){
-    .formPart{
+
+@media screen and (max-width: 1200px) {
+    .formPart {
         align-items: center;
         display: flex;
         flex-direction: column;
     }
-    .googleForm{
+
+    .googleForm {
         align-items: center;
         display: flex;
         flex-direction: column;

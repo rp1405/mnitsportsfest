@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 body {
   background-color: #1B1B1B;
   color: #4e4e4e;
@@ -93,7 +94,8 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #1B1B1B;;
+  background-color: #1B1B1B;
+  ;
 }
 
 .overlay-mf {
@@ -120,7 +122,8 @@ a:hover {
 
 
 .table-cell {
-  display: none; /*to hide the MST text */
+  display: none;
+  /*to hide the MST text */
   vertical-align: middle;
 }
 
@@ -756,7 +759,7 @@ a:hover {
   height: 100vh;
   position: relative;
   color: #fff;
-  
+
 }
 
 .hero .hero-content {
@@ -774,6 +777,7 @@ a:hover {
   width: 100%;
   opacity: 0.9;
 }
+
 .hero .hero-title {
   color: #fff;
   font-weight: 600;
@@ -860,12 +864,30 @@ a:hover {
   width: 400px;
 }
 
+
+.about-mf .aboutMnit-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .aboutMnit-img img {
+  margin-top: 3.5em;
+  margin-left: 10px;
+}
+
 @media (min-width: 767px) {
   .about-mf .box-pl2 {
     margin-top: 3rem;
     padding-left: 0rem;
   }
 }
+
+@media (max-width: 767px) {
+  .about-mf .aboutMnit-img img {
+    margin-top: 0em;
+    margin-left: 0px;
+  }
+}
+
 
 .skill-mf span {
   color: #4e4e4e;
@@ -1469,7 +1491,8 @@ footer {
   text-align: center;
   color: #fff;
   padding: 25px 0;
-  background: #1B1B1B;;
+  background: #1B1B1B;
+  ;
 }
 
 footer .copyright {
@@ -1483,6 +1506,7 @@ footer .credits {
 footer .credits a {
   color: #fff;
 }
-.form_div{
+
+.form_div {
   margin-right: .5rem;
 }
