@@ -189,3 +189,11 @@
         width: 100%;
     }
 }
+
+
+/* for titles */
+@media (max-width:800px) {
+    .title-a{
+        font-size: 3rem;
+    }
+}
