@@ -66,24 +66,24 @@ leftButtonSmall.addEventListener('click', () => {
 //Image paths here
 let carouselImages = [
     {
-        imagePath: "assets/img/glimps1.png"
+        imagePath: "assets/img/glimpleimg1.jpeg"
     },
     {
-        imagePath: "assets/img/glimps2.png"
+        imagePath: "assets/img/glimpleimg2.jpeg"
     },
     {
-        imagePath: "assets/img/glimps3.png"
+        imagePath: "assets/img/glimpleimg3.jpeg"
     },
     {
-        imagePath: "assets/img/glimps4.png"
+        imagePath: "assets/img/glimpleimg4.jpeg"
     },
     {
-        imagePath: "assets/img/glimps5.png"
+        imagePath: "assets/img/glimpleimg5.jpeg"
     },
     {
-        imagePath: "assets/img/glimps6.png"
+        imagePath: "assets/img/glimpleimg6.jpeg"
     },
     {
-        imagePath: "assets/img/glimps1.png"
+        imagePath: "assets/img/glimpleimg1.jpeg"
     },
 ];
