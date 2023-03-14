@@ -18,10 +18,10 @@
     flex-direction: row;
 }
 
-/* .youtubeVideo {
-    padding-right: 5vw;
-    padding-top: 5vw;
-} */
+.youtubeVideo {
+    height: 100%;
+}
+
 
 /* About MNIT part */
 .aboutMnit {
