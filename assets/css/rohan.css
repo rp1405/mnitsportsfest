@@ -19,9 +19,12 @@
 }
 
 .youtubeVideo {
+    margin-top: 2%;
     height: 100%;
 }
-
+.youtubeVideo2 {
+    height: 70%;
+}
 
 /* About MNIT part */
 .aboutMnit {
