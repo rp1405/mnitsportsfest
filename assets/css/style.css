@@ -2,7 +2,7 @@
 
 body {
   background-color: #1B1B1B;
-  color: #4e4e4e;
+  color: #f5f3ed;
   font-family: "Poppins";
 }
 
@@ -42,7 +42,7 @@ a:hover {
 
 .color-text-a {
   text-decoration: none;
-  color: #4e4e4e;
+  color: #f5f3ed;
 }
 
 .box-shadow,
@@ -169,7 +169,7 @@ a:hover {
 
 .subtitle-a {
   text-decoration: none;
-  color: #4e4e4e;
+  color: #f5f3ed;
 }
 
 .line-mf {
@@ -595,7 +595,7 @@ a:hover {
   padding: 10px 20px;
   font-size: 14px;
   text-transform: none;
-  color: #4e4e4e;
+  color: #f5f3ed;
 }
 
 .navbar .dropdown ul a i {
@@ -704,7 +704,7 @@ a:hover {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #4e4e4e;
+  color: #f5f3ed;
 }
 
 .navbar-mobile a:hover,
@@ -890,7 +890,7 @@ a:hover {
 
 
 .skill-mf span {
-  color: #4e4e4e;
+  color: #f5f3ed;
 }
 
 .skill-mf .progress {
@@ -932,7 +932,7 @@ a:hover {
 }
 
 .service-box .s-description {
-  color: #4e4e4e;
+  color: #f5f3ed;
 }
 
 /*--------------------------------------------------------------
@@ -993,7 +993,7 @@ a:hover {
 }
 
 .work-content .w-more {
-  color: #4e4e4e;
+  color: #f5f3ed;
   font-size: 0.8rem;
 }
 
@@ -1312,7 +1312,7 @@ a:hover {
 }
 
 .card-blog .card-description {
-  color: #4e4e4e;
+  color: #f5f3ed;
 }
 
 .card-blog .post-author {
@@ -1320,7 +1320,7 @@ a:hover {
 }
 
 .card-blog .post-date {
-  color: #4e4e4e;
+  color: #f5f3ed;
   display: inline-block;
   float: right;
 }
