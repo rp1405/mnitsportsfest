@@ -595,7 +595,7 @@ a:hover {
   padding: 10px 20px;
   font-size: 14px;
   text-transform: none;
-  color: #f5f3ed;
+  color: #0000;
 }
 
 .navbar .dropdown ul a i {
@@ -685,7 +685,7 @@ a:hover {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: rgb(18, 18, 18);
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -710,7 +710,7 @@ a:hover {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #0078ff;
+  color: goldenrod;
 }
 
 .navbar-mobile .getstarted,
@@ -745,7 +745,7 @@ a:hover {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #0078ff;
+  color: goldenrod;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
